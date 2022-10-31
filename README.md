@@ -1,1 +1,9 @@
-# stock-analysis
+# Stock Analysis
+## Overview of Project
+The purpose of this project is to collect the total daily volume and return for a list of 12 different stocks in the years 2017 and 2018. The analysis was originally based on a nested for loop that ran through each of the stock tickers 3 times; first to get the stock's return, and the next two iterations to gather the start and end price in the given year. While this method ultimately got the job done, it took a while to complete all the loops needed to pull all the necessary information. 
+In order to make the analysis more flexible for the client, it needed to be refactored to run in less time. This goal was accomplished by changing the existing for loop to run only one time per stock ticker - pulling all three data points in one iteration instead of 3 iterations. This change succesfully decreased the run time.
+## Results
+
+## Summary
+1. The first advantage of refactoring code is that the process of reviewing your work gives you the opportunity to understand what you've written and why it works. This gives you the chance to identify where the essential arguments are, versus lines of code that might not be needed for the algorithm to function. Once the code has been refactored and no longer has unnecessary information, it will likely run faster than it did in the original solution. This is where the second key advantage of refactoring code comes into play; it allows the code to be used on bigger sets of data, or potentially for different datasets. For example, the stocks data used in this project only included 12 stocks. Once refactored, the client could easily add a 13th stock to analyze, just by updating the ticker array and the number of iterations for the loop. The only real disadvantage of refactoring code is the additional time that is spent optimizing and reworking it.
+2. 
