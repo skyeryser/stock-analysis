@@ -17,7 +17,7 @@ In 2018, the market climate shifted for the worse. Most of the listed stocks end
 ![stock_overview_2018.png](https://github.com/skyeryser/stock-analysis/blob/main/Resources/stock_overview_2018.png)
 
 ## The Refactored Analysis
-The original code for the 2018 analysis took 41025.55 seconds to run.
+The original code for the 2018 analysis took 59190.46 seconds to run.
 
 ![VBA_Challenge_2018.png](https://github.com/skyeryser/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
