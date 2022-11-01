@@ -3,7 +3,7 @@
 This project aims to collect the total daily volume and return for a list of twelve different stocks in the years 2017 and 2018. The analysis was based on a nested for loop that ran through each of the stock tickers three times, first to get the stock's return, while the following two iterations gathered the start and end price in the given year. While this method ultimately got the job done, it took a while to complete all the loops needed to pull all the necessary information. 
 To make the analysis run faster for the client, the code needed to be refactored. This goal was accomplished by changing the existing for loop to run only once per stock ticker - pulling all three data points in one iteration instead of three iterations. This change successfully decreased the run time.
 ## Results
-## The Initial Investigation
+### The Initial Investigation
 The stock analysis for 2017 shows that eleven of the twelve selected stocks had net positive returns between the start of 2017 and the end of the year. In addition, many stocks outperformed the average 8% annual return of the S&P 500 by well over 100%. The only security that underperformed in 2017 was 'TERP' with a -7.2% return. 
 
 ![stock_overview_2017.png](https://github.com/skyeryser/stock-analysis/blob/main/Resources/stock_overview_2017.png)
@@ -16,7 +16,7 @@ In 2018, the market climate shifted for the worse. Most of the listed stocks end
 
 ![stock_overview_2018.png](https://github.com/skyeryser/stock-analysis/blob/main/Resources/stock_overview_2018.png)
 
-## The Refactored Analysis
+### The Refactored Analysis
 The original code for the 2018 analysis took 59190.46 seconds to run.
 
 ![VBA_Challenge_2018.png](https://github.com/skyeryser/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
